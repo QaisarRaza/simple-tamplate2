@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* background-color: aqua;  */
+    width: 100%;
+    height:auto;
+    display:flex;
+     flex-direction: column; 
+}
+.navbar{
+    background-color: rgb(163, 52, 52);
+    width: 100%;
+    height: 70px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    position: fixed;
+    box-sizing: border-box;
+}
+.logo{
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: white;
+}
+ul{
+    display: flex;
+    
+   
+}
+ul li{
+    list-style: none;
+
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    padding:10px;
+    color: white;
+    letter-spacing: 3px;
+    
+}
+.pic{
+    background-image: url(images\ \(2\).jpeg);
+    background-size: 100% 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    background-repeat: no-repeat;
+}
+.pic h1{
+    font-size: 60px;
+    color: white;
+    margin-top: 5px;
+    letter-spacing: 5px;
+}
+.pic p{
+    color: white;
+    margin-top: 5px;
+}
+.pic button{
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    width: 100px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.section2{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.first{
+    width: 500px;
+}
+.first h2{
+    letter-spacing: 3px;
+}
+.second{
+    width: 500px;
+}
+.section3{
+    width: 100%;
+    height:auto;
+     /* background-color:rgb(133, 104, 104) ;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card1{
+    width: 300px;
+    height: 270px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.card1 h2{
+    text-align: center;
+}
+.card1 h1{
+    text-align: left;
+    margin-right: 130px;
+}
+.card2{
+    width: 300px;
+    height: 270px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.card2 h2{
+    text-align: center;
+}
+.card2 h1{
+    text-align: left;
+    margin-right: 130px;
+}
+.card3{
+    width: 300px;
+    height: 270px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.card3 h2{
+    text-align: center;
+}
+.card3 h1{
+    text-align: left;
+    margin-right: 130px;
+}
+.con{
+    width: 300px;
+    margin-top: 10px;
+}
+.maincard1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+ .section4{
+    background-image: url(images\ \(1\).jpeg);
+    background-size: 100% 100%;
+    height: 400px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+} 
+.section4 h1{
+    color: white;
+    /* width: 300px; */
+    /* background-color: yellow; */
+    letter-spacing: 5px;
+    font-size: 40px;
+    margin-top: 5px;
+}
+.section4 p{
+    color: white;
+    /* width: 300px; */
+    margin: 5px;
+}
+.section4 button{
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+}
+footer{
+     width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+     align-items: center; 
+    flex-direction: column; 
+}
+footer h2{
+  margin-left: 60px;
+}
+@media (max-width:671px)
+ {
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .navbar ul{
+        font-size: 10px;
+    }
+    .navbar a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pic h1{
+        font-size: 30px;
+    } 
+    .pic p{
+        font-size: 12px;
+    }
+}
+@media (max-width:785px)
+ {
+    .first h2{
+        font-size: 15px;
+    }
+    .second p{
+        font-size: 13px;
+    }
+}
+@media (max-width:450px)
+ {
+    .first h2{
+        font-size: 10px;
+    }
+    .first h5{
+        font-size: 7px;
+    }
+    .second p{
+        font-size: 9px;
+    }
+}
+@media (max-width:550px)
+ {
+    .first h2{
+        font-size: 10px;
+    }
+    .second p{
+        font-size: 9px;
+    }
+    .section4 h1{
+        font-size: 30px;
+    }
+}
+@media (max-width:430px)
+ {
+    .section4 p{
+        font-size: 12px;
+    }
+    .section4 h1{
+        font-size: 20px;
+    }
+}
